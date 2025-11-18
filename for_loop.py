@@ -13,3 +13,7 @@ def num_range(num):
         print(i)
 def range_list(s,l):
     print(list(range(s, l)))
+
+def range_word(list):
+    for i in range(len(list)):
+        print(i,list[i])

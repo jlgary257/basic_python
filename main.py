@@ -23,4 +23,3 @@ if __name__ == '__main__':
     #range_list(3,10)
     range_word(words)
     print(list(enumerate(words)))
-

@@ -1,5 +1,5 @@
 from logging import setLoggerClass
-
+from sympy import isprime
 from breakpoint import print_hi
 from for_loop import for_animal, for_link, num_range, range_list, range_word
 from prime_number import show_array, prime_no
@@ -29,3 +29,4 @@ if __name__ == '__main__':
     # print(list(enumerate(words)))
     prime_no(num_list,2,30)
    # show_array(num_list)
+    print(isprime(17))

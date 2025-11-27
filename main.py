@@ -2,6 +2,7 @@ from logging import setLoggerClass
 from sympy import isprime
 from breakpoint import print_hi
 from for_loop import for_animal, for_link, num_range, range_list, range_word
+from palindrome import palindrome
 from prime_number import show_array, prime_no
 from print_datatype import print_datatype
 from selection import cat_fatness, cat_inner_select
@@ -27,6 +28,8 @@ if __name__ == '__main__':
     # #range_list(3,10)
     # range_word(words)
     # print(list(enumerate(words)))
-    prime_no(num_list,2,30)
+    #prime_no(num_list,2,30)
    # show_array(num_list)
-    print(isprime(17))
+    #print(isprime(17))
+    palindrome(100,150,0)
+    print(str(name)[::-1])
